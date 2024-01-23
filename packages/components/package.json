@@ -1,0 +1,18 @@
+{
+    "name": "@nuxt-monorepo-bug/components",
+    "description": "Components",
+    "version": "1.0.0",
+    "license": "ISC",
+    "private": true,
+    "scripts": {
+        "generate": "nuxt generate",
+        "prepare": "npm run generate"
+    },
+    "dependencies": {
+        "nuxt": "3.9.3",
+        "vue": "3.4.15"
+    },
+    "devDependencies": {
+        "typescript": "5.3.3"
+    }
+}

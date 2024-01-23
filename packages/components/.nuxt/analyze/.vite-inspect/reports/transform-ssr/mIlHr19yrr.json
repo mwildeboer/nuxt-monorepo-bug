@@ -1,0 +1,17 @@
+{
+  "resolvedId": "virtual:nuxt:/Users/menno/Code/nuxt-monorepo-bug/packages/components/.nuxt/css.mjs",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1706019450107,
+      "end": 1706019450107
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706019450107,
+      "end": 1706019450107,
+      "order": "normal"
+    }
+  ]
+}

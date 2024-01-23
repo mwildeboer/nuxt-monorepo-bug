@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "name": "nuxt-monorepo-bug",
+    "license": "ISC",
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "prepare": "turbo run prepare"
+    },
+    "workspaces": {
+        "packages": [
+            "app/*",
+            "packages/*"
+        ],
+        "nohoist": [
+            "**/nuxt*",
+            "**/@nuxt*"
+        ]
+    },
+    "engines": {
+        "node": ">= 18",
+        "npm": ">= 8"
+    },
+    "devDependencies": {
+        "turbo": "1.11.3"
+    }
+}

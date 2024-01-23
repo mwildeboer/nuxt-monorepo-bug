@@ -1,0 +1,49 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true
+max_line_length = 160
+block_comment_start = /*
+block_comment =  *
+block_comment_end = */
+quote_type = single
+
+[*.{md,markdown,mdx}]
+indent_style = ignore
+insert_final_newline = ignore
+trim_trailing_whitespace = ignore
+
+[{.DS_Store,{dist,node_modules,submodules}/**}]
+charset = ignore
+indent_size = ignore
+indent_style = ignore
+insert_final_newline = ignore
+tab_width = ignore
+trim_trailing_whitespace = ignore
+
+[*.d.ts]
+charset = unset
+indent_size = unset
+indent_style = unset
+insert_final_newline = unset
+tab_width = unset
+trim_trailing_whitespace = unset
+
+[*.{htm,html}]
+quote_type = double
+
+[*.{tpl,yaml}]
+# Helm chart
+indent_size = 2
+
+[{Makefile,**.mk}]
+# Use tabs for indentation (Makefiles require tabs)
+indent_style = tab
+
+[{*.jenkinsfile,**.groovy}]
+indent_size = 2

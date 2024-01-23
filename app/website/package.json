@@ -1,0 +1,22 @@
+{
+    "name": "@nuxt-monorepo-bug/website",
+    "description": "Website",
+    "version": "1.0.0",
+    "license": "ISC",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "prepare": "npm run generate"
+    },
+    "dependencies": {
+        "@nuxt-monorepo-bug/components": "1.0.0",
+        "nuxt": "3.9.3",
+        "vue": "3.4.15"
+    },
+    "devDependencies": {
+        "typescript": "5.3.3",
+        "vite": "^5.0.12"
+    }
+}

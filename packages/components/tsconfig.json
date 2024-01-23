@@ -1,0 +1,8 @@
+{
+    "extends": "./.nuxt/tsconfig.json",
+    "include": ["./.nuxt/nuxt.d.ts", "./src/**/*"],
+    "compilerOptions": {
+        "declaration": true,
+        "declarationMap": true
+    }
+}
